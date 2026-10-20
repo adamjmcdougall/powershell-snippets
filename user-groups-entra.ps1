@@ -1,3 +1,6 @@
+#Source: https://m365corner.com/m365-powershell/using-get-mgusermemberof-in-graph-powershell.html
+#I've added the "read-host" portion at the top instead of hardcoding a username.
+
 $userId = Read-Host "Please enter the UPN of the targeted user"
 
 # Get the list of objects the user is a member of
